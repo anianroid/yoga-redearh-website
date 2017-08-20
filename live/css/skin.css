@@ -664,12 +664,12 @@ body,
 
 /* Initial Logo Width */
 .header .logo{
-	width: 20rem;
+	width: 40rem;
 }
 
 /* Compacted Header Logo Width */
 .header-compact .logo{
-	width: 15rem;
+	width: 40rem;
 }
 
 /* Initial Logo Styling */
@@ -3241,7 +3241,7 @@ select.required-field{
 /* Footer Background */
 .footer{
 	width: 100%;
-	background: #1f2225;
+	background: #784432;
 	color: #666;
 }
 .footer-light{
@@ -4374,4 +4374,7 @@ only screen and (				min-resolution: 2dppx) {
 
 .tooltip {
     padding: 1rem;
+}
+.logo-yap {
+    margin-left: 40%;
 }
