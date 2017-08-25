@@ -664,12 +664,12 @@ body,
 
 /* Initial Logo Width */
 .header .logo{
-	width: 40rem;
+	width: 20rem;
 }
 
 /* Compacted Header Logo Width */
 .header-compact .logo{
-	width: 40rem;
+	width: 20rem;
 }
 
 /* Initial Logo Styling */
@@ -1219,7 +1219,7 @@ body,
 }
 @media only screen and (min-width: 768px){
 	.side-navigation-wrapper{
-		width: 50%;
+		width: 30%;
 	}
 	.side-navigation-scroll-pane,
 	.side-navigation-inner{
@@ -1227,12 +1227,12 @@ body,
 	}
 	/* Side Navigation Reveal */
 	.element-reveal-left {
-		-webkit-transform: translate3d(50%,0,0);
-				transform: translate3d(50%,0,0);
+		-webkit-transform: translate3d(30%,0,0);
+				transform: translate3d(30%,0,0);
 	}
 	.element-reveal-right {
-		-webkit-transform: translate3d(-50%,0,0);
-				transform: translate3d(-50%,0,0);
+		-webkit-transform: translate3d(-30%,0,0);
+				transform: translate3d(-30%,0,0);
 	}
 }
 
@@ -4377,4 +4377,19 @@ only screen and (				min-resolution: 2dppx) {
 }
 .logo-yap {
     margin-left: 40%;
+}
+
+.yogacert img {
+    height: 8em;
+    padding: 1rem;
+}
+
+.slider-item {
+    max-height: 420px;
+    margin: 5px;
+    padding: 5px;
+}
+.slider-item img {
+    height: 100%;
+    width: auto;
 }
